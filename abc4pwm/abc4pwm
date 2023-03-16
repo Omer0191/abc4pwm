@@ -123,7 +123,7 @@ def setup_commandline_arguments():
 
         parser_representative_fbp = subparsers.add_parser('representative_motif',
                                                           formatter_class=argparse.RawTextHelpFormatter,
-                                                          help='',
+                                                          help='This module will create a representative motif of any given multiple motifs list. Here it creates representative motif of the clusters produced. ',
                                                           epilog='')
 
         parser_representative_fbp.add_argument("--path_to_clusters",
@@ -177,7 +177,7 @@ def setup_commandline_arguments():
 
         parser_quality_cluster = subparsers.add_parser('quality_assessment',
                                                        formatter_class=argparse.RawTextHelpFormatter,
-                                                       help='',
+                                                       help='Quality assessment module provides a combination of several statistical metrics for the quality assessment of clustered PWMs. ',
                                                        epilog='')
 
         parser_quality_cluster.add_argument("--dbd_folders_directory",
@@ -253,7 +253,7 @@ def setup_commandline_arguments():
 
         parser_plot_cluster = subparsers.add_parser('plot_cluster_motifs',
                                                     formatter_class=argparse.RawTextHelpFormatter,
-                                                    help='run representative motif task before running this task',
+                                                    help='Module to plot list of PWMs (motifs) given in a folder. run representative motif task before running this task',
                                                     epilog='')
 
         parser_plot_cluster.add_argument("--path_to_clusters",
@@ -279,7 +279,7 @@ def setup_commandline_arguments():
 
         parser_textTFDB = subparsers.add_parser('text_tfdb',
                                                 formatter_class=argparse.RawTextHelpFormatter,
-                                                help='',
+                                                help='This module creates a database of TFs list with their respective DBD information gathered from various sources and stores in a text file for further uses in analysis.',
                                                 epilog='')
 
         parser_textTFDB.add_argument("--pwm_files_directory", help="This folder should contain the input pwm files in "
@@ -291,7 +291,7 @@ def setup_commandline_arguments():
 
         parser_searching = subparsers.add_parser('searching',
                                                  formatter_class=argparse.RawTextHelpFormatter,
-                                                 help='',
+                                                 help='This module can be used to search a given motif against a database of motifs and produce a pdf of top n matched motifs along with similarity score.',
                                                  epilog='')
         parser_searching.add_argument('--pwm',
                                       help="position weight matrix file (motif) which you want to search. .mlp format",
