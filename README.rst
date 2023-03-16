@@ -1,1 +1,1 @@
-# This file is used to generate README.rst
+Complete Documentation of Tool can be found in 'Docs' Directory
