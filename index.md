@@ -18,6 +18,16 @@ abc4pwm is a software tool for clustering of pwms, classficiation of pwms to the
 
 *To whom correspondence should be addressed. Email: junbai.wang@medisin.uio.no*
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2D7L85HVYY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2D7L85HVYY');
+</script>
+
 ## Abstract
 
 **Background:**
